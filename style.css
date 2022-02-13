@@ -1,0 +1,83 @@
+    h1 {
+        margin-bottom: 100px;
+    }
+    /* h2 {
+    background-color: red;
+    display: inline; */
+    /* padding */
+    /* padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px; */
+    /* The order is Top - Right - Bottom - Left */
+    /* padding: 10px 20px 30px 40px; */
+    /* The order is top and bottom - left and right */
+    /* padding: 20px 30px; */
+    /* border */
+    /* border: 2px solid #000; */
+    /* margin */
+    /* margin: 30px; */
+    /* just like padding you also the same setting. 
+    */
+    /* } */
+    /* start of container and Row */
+    
+    .container {
+        width: 1200px;
+        margin: auto;
+    }
+    
+    h1 {
+        background-color: red;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .box1 {
+        width: 40%;
+        margin: auto;
+    }
+    
+    .box2 {
+        width: 25%;
+        max-width: auto;
+    }
+    
+    .box3 {
+        width: 40%;
+        margin: auto;
+    }
+    
+    .box3 img {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .box4 {
+        width: 45%;
+        margin: auto;
+    }
+    
+    .box4 img {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .box5 {
+        width: 45%;
+        margin: auto;
+    }
+    
+    .box5 .box5_1 {
+        width: 45%;
+        margin: auto;
+    }
+    
+    .box5_1 img {
+        width: 100%;
+        margin: auto;
+    }
